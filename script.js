@@ -11,7 +11,7 @@ const clicking = (e) => {
 const move = (e) => {
   if (isClicked == false) return;
 
-  banana[0].style.left = e.pageX + "px";
+  banana[0].style.left = `${e.pageX}px`;
   banana[0].style.top = e.pageY + "px";
 
   eye_ref.forEach((eye) => {
